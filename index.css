@@ -1,0 +1,120 @@
+body {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-size: 81.25%;
+  color: #ffffff;
+  margin: 0;
+  height: 100vh;
+}
+
+html {
+  direction: ltr;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  margin-left: auto;
+  padding: 2em;
+}
+
+a .icon {
+  background-size: 32px 32px;
+  border: 0;
+  height: 50px;
+  width: 50px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  height: 20px;
+}
+
+main {
+  width: 50%;
+  margin: 6.9em auto;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+}
+
+main img {
+  height: 100px;
+}
+
+.google-image {
+  width: 30%;
+  height: 5%;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+input {
+  width: 60%;
+  padding: 0.55rem;
+  margin-left: 3%;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 1px solid #dfdfdf;
+}
+
+.bton_container {
+  margin-top: 1em;
+  margin-left: 40px;
+}
+
+.bton_container button {
+  padding: 0.7em 0.7em;
+  border: none;
+  margin-right: 10px;
+  font-size: 0.88rem;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: #f2f2f2;
+  justify-self: flex-end;
+  color: grey;
+}
+
+.footer_top {
+  color: grey;
+  margin-left: 2%;
+}
+
+.footer_bottom {
+  padding: 1rem 2rem 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(206, 206, 206);
+}
+.footer-color {
+  color: grey;
+}
+
+.left a {
+  margin-right: 1em;
+  color: grey;
+}
+
+.right a {
+  margin-right: 1em;
+  color: grey;
+}
+
+.carbon-image {
+  width: 0.9rem;
+  margin-left: -100px;
+}
